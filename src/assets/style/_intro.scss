@@ -1,0 +1,26 @@
+
+.tabs-switcher{
+	padding: 20px 0;
+	@include flex-row;
+	justify-content: space-between;
+
+	h1{
+		font-size: 28px;
+		font-weight: 600;
+		line-height: 36px;
+	}
+
+	section{
+		@include flex-row;
+    align-items: flex-end;
+		button{
+			font-weight: 700;
+			color: $grey-color;
+		}
+
+		button:first-of-type{
+			margin-right: 15px;
+		}
+	}
+}
+

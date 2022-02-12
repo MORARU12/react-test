@@ -1,0 +1,113 @@
+@media (hover: hover) and (pointer: fine) {
+	.hover-icon-click{
+		cursor: pointer;
+		transition: 0.2s ease-in-out;
+	}
+	
+	.hover-icon-click:hover{
+		transform: scale(1.05);
+	}
+	
+	.hover-icon-click:active{
+		opacity: 0.5;
+		transform: scale(0.95);
+	}
+
+
+	.text-btn-click{
+		cursor: pointer;
+	}
+
+	.text-btn-click:active{
+		opacity: 0.5;
+	}
+
+
+}
+
+
+@media only screen and (max-width: $md) {
+	.body--block{
+		max-width: 100%;
+    min-width: 100%;
+		padding: 0 5%;
+	}
+
+	.tabs-switcher {
+		h1{
+			font-size: 20px;
+			line-height: inherit;
+		}
+	}
+
+	.tabs-switcher{
+		padding: 15px 0;
+	}
+
+	button{
+		font-size: 13px;
+	}
+
+	.form--label-small{
+		height: fit-content;
+		margin-bottom: 35px;
+	}
+
+	.form{
+		flex-direction: column;
+		padding: 35px;
+		padding-bottom: 0;
+	}
+
+	.buy-fonts--text{
+		font-size: 14px;
+		margin-bottom: 35px;
+	}
+
+	.block--squares-small{
+		padding: 0;
+	}
+
+	.block--squares-small{
+		width: 100%;
+	}
+}
+
+
+@media only screen and (max-width: $sm) {
+	.block--square-small{
+		margin: auto;
+	}
+
+	.text--section-mini{
+		margin-top: 20px;
+		margin-left: 0;
+
+		p{
+			text-align: center;
+		}
+
+		span{
+			display: none;
+		}
+	}
+
+	.form--label-small{
+		flex-direction: column;
+	}
+
+	.tabs-switcher{
+		flex-direction: column;
+		text-align: center;
+
+		h1{
+			margin-bottom: 15px;
+		}
+
+		section{
+			margin: auto;
+			margin-bottom: 10px;
+		}
+	}
+}
+
